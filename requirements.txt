@@ -3,3 +3,6 @@ flask-restful
 feedparser
 requests
 beautifulsoup4
+# Production
+gevent
+gunicorn
