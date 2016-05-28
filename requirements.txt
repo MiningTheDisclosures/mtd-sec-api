@@ -1,5 +1,6 @@
 flask
 flask-restful
+flask-cors
 feedparser
 requests
 beautifulsoup4

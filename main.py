@@ -6,10 +6,11 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from flask import Flask
 from flask_restful import Api, Resource
+from flask.ext.cors import CORS
 
 app = Flask(__name__)
 api = Api(app)
-
+CORS(app)
 
 # Get company info given a stock ticker
 class Company(Resource):
